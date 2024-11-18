@@ -34,4 +34,4 @@ jobs:
         env:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
         run: |
-          python -m unittest discover -s tests -p "*.py"
+          python -m unittest discover tests
