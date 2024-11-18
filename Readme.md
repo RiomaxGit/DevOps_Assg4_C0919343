@@ -22,9 +22,3 @@ This project demonstrates a Flask application integrated with MongoDB Atlas. It 
 
 ---
 
-## Project Setup
-
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd <repository-name>
