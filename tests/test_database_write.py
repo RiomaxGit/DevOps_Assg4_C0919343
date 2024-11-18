@@ -4,7 +4,7 @@ from pymongo import MongoClient
 class TestDatabaseOperations(unittest.TestCase):
     def setUp(self):
         """Set up the connection to MongoDB and target the products collection."""
-        self.client = MongoClient("MDB_URI")  # Removed actual string.
+        self.client = MongoClient("MONGODB_URI")  # Removed actual string.
         self.db = self.client.shop_db
         self.collection = self.db.products
 
